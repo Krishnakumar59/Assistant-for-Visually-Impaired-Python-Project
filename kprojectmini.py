@@ -40,11 +40,6 @@ def spotify():
     sleep(2)
     press('Space')
     
-# spotify
-# def lockpc():
-#     aa.press('win','L')
-#     command = "start spotify"
-#     os.system(command)
     
 
 
@@ -124,10 +119,6 @@ while cap.isOpened():
 
 
         fingers = detector.fingersUp()
-        # if fingers[1] == True and fingers[2] == True and fingers[0] == False and fingers[3] == False and fingers[4] == False:
-        #     os.system('start chrome')
-        #     for j in range(100000000):
-        #         continue
 
         # for spotify 1 2
         if fingers[0] == False and fingers[1] == True and fingers[2] ==True and fingers[3] == False and fingers[4] == False:
@@ -152,12 +143,6 @@ while cap.isOpened():
             notepad()
             for j in range(10000):
                 continue
-
-    #    # for lock pc 0 0 0 0 0
-        # if fingers[0] == True and fingers[1] == False and fingers[2] == False and fingers[3] == False and fingers[4] == False:
-        #     # lockpc()
-        #     for j in range(10000):
-        #         continue
 
 
 
