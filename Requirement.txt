@@ -1,4 +1,4 @@
 cvzone==1.4.1
 mediapipe==0.8.7
-cv2
-pyautogui
+opencv-python==3.4.16.57
+PyAutoGUI==0.9.53
